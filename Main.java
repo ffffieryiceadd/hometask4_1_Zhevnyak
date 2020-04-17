@@ -11,11 +11,11 @@ public class Main {
 
         AutomatedTest automatedTestUnit = new AutomatedTest(TestLevel.UNIT, 1);
         AutomatedTest automatedTestAPI = new AutomatedTest(TestLevel.API, 5);
-        AutomatedTest automatedTestGUI = new AutomatedTest(TestLevel.GUI, 7);
+        AutomatedTest automatedTestGUI = new AutomatedTest(TestLevel.GUI, 8);
 
         ManualTest manualTestUnit = new ManualTest(TestLevel.UNIT, 2);
         ManualTest manualTestAPI = new ManualTest(TestLevel.API, 5);
-        ManualTest manualTestGUI = new ManualTest(TestLevel.GUI, 6);
+        ManualTest manualTestGUI = new ManualTest(TestLevel.GUI, 7);
 
         TestEngineer testEngineer1 = new TestEngineer();
         AutomationEngineer automationEngineer1 = new AutomationEngineer();
