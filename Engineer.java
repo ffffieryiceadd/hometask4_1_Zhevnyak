@@ -11,12 +11,12 @@ public abstract class Engineer {
         return skill;
     }
 
-    public void setSkill(int skill) {
-        this.skill = skill;
-    }
-
     public int getAnxiety() {
         return anxiety;
+    }
+
+    public void setSkill(int skill) {
+        this.skill = skill;
     }
 
     public void setAnxiety(int anxiety) {
